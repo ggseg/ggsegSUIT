@@ -19,6 +19,14 @@ knitr::opts_chunk$set(
 
 # ggsegSUIT
 
+> [!IMPORTANT]
+> **`ggsegSUIT` is deprecated and this repository is archived.**
+> The SUIT cerebellar atlas now ships as a built-in default atlas in
+> [`ggseg.formats`](https://github.com/ggsegverse/ggseg.formats) as `suit()`,
+> and renders directly through [`ggseg`](https://github.com/ggsegverse/ggseg)
+> (2D) and [`ggseg3d`](https://github.com/ggsegverse/ggseg3d) (3D) — no separate
+> atlas package needed. Install those instead of `ggsegSUIT`.
+
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/ggsegverse/ggsegSUIT/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ggsegverse/ggsegSUIT/actions/workflows/R-CMD-check.yaml)
 [![r-universe](https://ggseg.r-universe.dev/badges/ggsegSUIT)](https://ggseg.r-universe.dev/ggsegSUIT)
